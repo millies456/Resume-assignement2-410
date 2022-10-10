@@ -3,7 +3,7 @@
     box-sizing: border-box;
       }
       body{
-        height: 95vh:
+        height:95vh;
         background: rgb(30, 175, 223);
         font-family:sans-serif;
         text-align: center;
@@ -21,8 +21,9 @@
         padding: 2em 0 2em 0;
       }
       main{
-        background: blue;
+        background: rgb(203, 110, 16);
         padding: 3em 0 3em 0;
+        height:95vh;
       }
       
       
@@ -34,7 +35,7 @@
       .main{
         display:flex;
         flex:1;
-        flex: 1 1 100px;
+        flex: 5 5 150px;
       }
       .right{
         background: blue;
@@ -42,8 +43,8 @@
       }
       footer{
         background: blue;
-        padding: 2em 0 2em 0;
-        flex: 1 1 100px;
+        padding: 1em 0 1em 0;
+       
       }
       @media all and (max-width: 550px){
        
